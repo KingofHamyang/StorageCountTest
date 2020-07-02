@@ -12,11 +12,11 @@ contract StorageCountTest {
     b = _b;
   }
 
-  function get_a() public return uint {
+  function get_a() public returns (uint) {
     return a;
   }
 
-  function get_b() public return uint {
+  function get_b() public returns (uint) {
     return b;
   }
 }
